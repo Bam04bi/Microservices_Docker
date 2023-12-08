@@ -39,7 +39,7 @@ This project demonstrates a microservices architecture using Docker and Docker C
 - **Database Name:** mydatabase
 - **Credentials:** Username - root, Password - root
 
-## 6. Usage
+## Usage
 
 1. Ensure Docker and Docker Compose are installed on your machine.
 2. Clone this repository.
@@ -49,36 +49,36 @@ This project demonstrates a microservices architecture using Docker and Docker C
    cd <project_directory>
    ```
 
-## 6. Run the following command to start the services:
+## Run the following command to start the services:
 
    ```bash
    docker-compose up
    ```
 This will create containers for each microservice, the gateway, and the Eureka Server.
 
-## 7. Access the services through the following URLs:
+## Access the services through the following URLs:
 
 - Eureka Server: http://localhost:8761
 - Gateway Server: http://localhost:8889
 - Service Client: http://localhost:8089
 - Service Voiture: http://localhost:8085
-## 8. Testing
+## Testing
 After the containers are running, test each microservice individually to ensure proper functionality.
 
 * Run the ```docker compose up``` command :
-![Architecture](/demonstration/1.png)
+![Architecture](/Demonstration/1.png)
 * Check Docker Desktop to verify the creation of the container, or u can simply type ```docker ps ```to check the images that are currently running 
-![Architecture](/demonstration/4.png)
+![Architecture](/Demonstration/4.png)
 Now go check ```localhost:8761``` to see if everything is going smoothly, you must have this kind of interface:
-![Architecture](/demonstration/6.png)
+![Architecture](/Demonstration/6.png)
 
 To test :
-![Architecture](/demonstration/7.png)
-![Architecture](/demonstration/8.png)
-![Architecture](/demonstration/12.png)
+![Architecture](/Demonstration/7.png)
+![Architecture](/Demonstration/8.png)
+![Architecture](/Demonstration/12.png)
 Now the databases:
-![Architecture](/demonstration/10.png)
-![Architecture](/demonstration/11.png)
+![Architecture](/Demonstration/10.png)
+![Architecture](/Demonstration/11.png)
 
 
 ## Additional Information
