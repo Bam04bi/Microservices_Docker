@@ -21,7 +21,7 @@ public class VoitureApplication {
     public static void main(String[] args) {
         SpringApplication.run(VoitureApplication.class, args);
     }
-    @FeignClient(name="CLIENTS")
+    @FeignClient(name="clients")
     interface ClientService{
         @GetMapping(path="/clients/{id}")
         public Client clientById(@PathVariable Long id);
